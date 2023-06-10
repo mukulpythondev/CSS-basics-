@@ -1,0 +1,19 @@
+#heading2{color: darkkhaki;}
+p{ color: rgb(230, 179, 40);}
+button{color:brown; background-color: gold;}
+body{background-color: rgb(3, 1, 1);}
+.language{color: darkorange;}
+#para1{text-align: center;}
+#head1{color: white; font-weight: lighter;}
+#head2{color : white; font-weight: dark ;}
+#head3{color: white ; font-weight: bolder;}
+#para2{font-size: 25px; line-height: 25px; text-transform:capitalize ;}
+#div1{height: 200 ; background-color: white ;}
+#intro{color: floralwhite; height: 40px; width: 400px; background-color: chocolate; border-width: 2px; border-color: azure; border-style: solid; text-align: center;}
+/* intro{color: floralwhite; height: 40px; width: 400px; background-color: chocolate; 
+     border: 2px solid white } */
+#div2{color: azure; height: 30px; width: 100px; background-color: darkgreen;  border: 2px solid white ; text-align: bottom ; border-radius: 10px; padding-top: 10px; margin-top: 20;}
+#nav{height: 60px; background-color: black; color: white; }
+#b1{background-color: orange; color: black; }
+#logo{color: orange;}
+.items{margin-right: 200px;}
