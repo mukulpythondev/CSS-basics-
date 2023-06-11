@@ -1,0 +1,79 @@
+#bo1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(26, 202, 158);
+    font-size: 20px;
+}
+#bo2{height: 50px;
+    width: 33%;
+    background-color: rgb(130, 179, 17);
+    font-size: 2em;
+}
+div{
+    height: 100px;
+    width: 100px;
+    /* background-color: rgb(139, 11, 139); */
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    position: static;
+    background-image: url("codepic.jpg");
+    background-size: cover;
+}
+#box2{
+    position: relative;
+    
+}
+#box3{
+    
+    /* it is based on the ancestor tags */
+    
+}
+#box4{
+    /* position: fixed; */
+}
+body{
+    text-align: center;
+}
+.divi{
+    height: 50px;
+    width: 250px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#div1{
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#divr{
+    height: 400px;
+    width: 500px;
+    background-color: darkorchid;
+}
+@media  (min-width: 300px) and (max-width: 600){
+    div{
+    background-color: black;
+}
+    
+}
+button{
+    color: cornsilk;
+    background-color: chartreuse;
+    transition-property: all;
+    transition-duration: 2s;
+}
+button:hover{
+    background-color: red;
+    color: wheat;
+    font-size: 19px;
+}
+button:active{
+    background-color: black;
+}
